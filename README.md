@@ -106,6 +106,7 @@ tabel 3: Tammpilan 10 dataset awal setelah di drop kolom _link_, _nama_perusahaa
 | Team Lead .Net Developer             | .NET, Java, Team, Leadership                                                                                          |
 
 __Menampilkan jumlah entry unik berdasarkan kemampuan dan jenis pekerjaan__
+
 Pada proyek ini menggunakan fungsi  _unique_ untuk menghitung nilai unik yang terdapat di masing masing kolom dataset kemudian terdapat fungsi _len_ untung menghitung total dari nilai _unique_tersebut lalu setelah dihitung menggunakan fungsi _len_ akan dicetak hasilnya menggunakan fungsi _print_, hasil dari menampilkan jumlah entry, ditampilkan pada gambar 1
 
 gambar 1 : Nilai unik pada kolom jenis pekerjaan
@@ -117,6 +118,7 @@ gambar 2 : Nilai unik pada kolom kemampuan
 
 
 __Menemukan dan menangani Missing Value__
+
 Pada proyek ini digunakan fungsi isnull().sum() yang berfungsi untuk menemukan nilai missing value di masing masing kolom dataset. missing value sendiri dapat diartikan sebagai nilai atribut yang kosong pada objek data. kemudian hasil dari fungsi isnull().sum() diatas dapat dilihat pada gambar 4 , sedangkan gambar 3 adalah dataset sebelum dicek _missing value_  lalu setelah itu kami menggunakan fungsi _dropna_ untuk menghapus nilai _missing value_ dengan hasil tabel setelah di drop dapat dilihat di tabel 4
 
 gambar 3:
@@ -141,6 +143,7 @@ gambar 4 :
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/4.JPG?raw=true)
 
 __menampilkan informasi dataset__
+
 Pada proyek ini digunakan fungsi info() di pandas yang digunakan untuk menampilkan informasi dari dataset, informasi seperti tipe data yang terdapat di masing masing kolom dataset, hasil dari fungsi info() dapat dilihat pada tabel 5
 
 tabel 5:
@@ -164,6 +167,7 @@ Pada persiapan data  data dapat dilakukan beberapa tahapan, antara lain :
 * Mesukkan dataframe jobs_new kedalam variable jobs_recomend dan berikan 5 sample teratas 
 
 __Mengurutkan jobs berdasarkan kemampuan kemudian memasukkannya ke dalam variabel fix_jobs__
+
 Pada bagian ini terdapat langkah mengurutkan variabel _movie_clean_ berdasarkan movieId dengan urutan bertipe _ascending_ setelah itu dimasukkan kedalam variabel fix_jobs, untuk hasil urutan tabel _jobs_clean_ dapat dilihat di tabel 6
 
 tabel 6 : 
@@ -182,18 +186,21 @@ tabel 6 :
 |                   IOS Developer                  |    iOS Development, Swift, SDLC ,JSON, XML, SQL   |
 
 __Mengecek berapa jumlah fix_movie__
+
 Pada bagian adalah pengecekkan entry unik pada variabel fix_movie yang berdasarkan movieId setelah itu dilakukan perhitungan dengan fungsi _len_, untuk melihat output dapat dilihat pada gambar 5 :
 
 gambar 5 :
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/6.JPG?raw=true)
 
 __Mengecek kategori kemampuan yang unik__
+
 Pada bagian ini adalah Pada bagian adalah pengecekkan entry unik pada variabel fix_jobs yang berdasarkan kemampuan setelah itu dilakukan perhitungan dengan fungsi len, untuk melihat output dapat dilihat pada gambar 6
 
 gambar 6 : Output hasil entry unik variabel unik fix_movie berdasarkan kemampuan
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/7.JPG?raw=true)
 
 __Membuang data duplikat pada variabel preparation dengan paramater kemampuan__
+
 Pada bagian ini dilakukan  penghapusan  data duplikat di variabel fix_jobs berdasarkan kemampuan menggunakan fungsi drop_duplicates setelah itu dimasukkan pada variabel preparation_2, setelah dihapus maka baris yang sebelumnya di tabel 6 sebanyak 498 rows x 2columns menjadi 491 rows × 2 columns
 
 tabel 7 : 
@@ -214,12 +221,14 @@ tabel 7 :
 491 rows × 2 columns         
 
 __Mengonversi data series jenis pekerjaan dan kemampuan menjadi dalam bentuk list__
+
 Pada bagian ini adalah bagian untuk mengkonversikan data series jenis_pekerjaan dan kemampuan yang ada di variabel preparation_jobs menjadi dalam bentuk list setelah itu totalkan jumlah hasil konversi bentuk list dari jenis_pekerjaan dan kemampuan menggunakan fungsi len kemudian cetak hasilnya menggunakan fungsi print dengan hasilnya dapat dilihat pada gambar 7
 
 gambar 7 : Hasil list data series jenis_pekerjaan dan kemampuan 
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/8.JPG?raw=true)
 
 __Membuat dictionary untuk data jenis pekerjaan dan kemampuan__
+
 Pada bagian ini terdapat langkah membuat dictionary untuk jenis_pekerjaan dan kemampuan dalam satu data frame dan dimasukkan ke dalam variabel jobs_new setelah itu untuk hasil dapat dilihat pada tabel 8 :
 
 tabel 8: hasil dictionary jenis_pekerjaan dan kemampuan
@@ -238,6 +247,7 @@ tabel 8: hasil dictionary jenis_pekerjaan dan kemampuan
 |                   IOS Developer                  |    iOS Development, Swift, SDLC ,JSON, XML, SQL   |
 
 __Memasukkan dataframe jobs_new kedalam variable jobs_recomend dan berikan 5 sample teratas__
+
 Pada bagian ini terdapat langkah untuk memasykkan dataframe jobs_new kedalam variable baru yaitu jobs_recomend setelah itu akan ditampilkan sample 5 teratas dataset menggunakan fungsi _sample_, dan untuk hasilnya dapat dilihat pada tabel 9
 
 tabel 9: 
@@ -271,6 +281,7 @@ gambar 8 :
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/9.JPG?raw=true)
 
 __Melakukan fit model setelah itu akan ditransformasikan kedalam matriks kemudian akan dilakuakan pengecekan ukuran matriks__
+
 Pada bagian ini dilakukan tahap fit model array TF-IDF Vectorizer dengan parameter kemampuan kedalam bentuk matriks setelah itu akan dilakukan pengecekkan ukuran matriks, untuk melihat ukuran matriks dapat dilihat pada gambar 9 :
 
 gambar 9: 
@@ -279,6 +290,7 @@ gambar 9:
 Perhatikanlah, matriks yang kita miliki berukuran (481, 358). Nilai 481 merupakan ukuran data dan 358 merupakan matrik kategori kemampuan. 
 
 __Mengubah vektor tf-idf dalam bentuk matriks dengan fungsi todense()__
+
 Pada tahap ini dilakukan tahap untuk  menghasilkan vektor tf-idf kedalam bentuk matriks, kita menggunakan fungsi todense(), dan untuk melihat hasilnya dapat dilihat pada gambar 10:
 
 gambar 10:
@@ -287,6 +299,7 @@ gambar 10:
 Selanjutnya, mari kita lihat matriks tf-idf untuk beberapa jenis_pekerjaan dan kategori kemampuan
 
 __Membuat dataframe untuk melihat tf-idf matrix untuk melihat korelasi antara jenis pekerjaan dan kemampuan__
+
 Pada tahap ini dilakukan tahap untuk membuat dataframe untuk melihat tf-idf matrix dengan kolom di isi menggunakan jenis get_names yang berisi kemampuan dan baris diisi dengan jenis pekerjaan, untuk melihat outputnya dapat dilihat pada tabel 10:
 
 Tabel 10 :
@@ -306,15 +319,18 @@ Tabel 10 :
 |                          .Net Developer                         |       0.0 |       0.0 |         0.0 |          0.0 | 0.000000 |       0.0 |       0.0 |     0.0 |      0.0 |   |   |
 
 __Menghitung cosine similarity pada matrix tf-idf__
+
 Pada bagian ini dilakukan tahap _cosine similarity_ yang bertujuan untuk  menghitung derajat kesamaan (similarity degree) antar kemampuan dengan teknik cosine similarity dan untuk menggunakannya, kami menggunakan fungsi cosine_similarity dari library sklearn setelah menginisialisasi fungsi _cosine similarity_panggil fungsi tfidf_matrix lalu simpan dalam variable cosine_sim kemudian akan muncull output berupa array matriks , untuk hasilnya dapat dilihat pada gambar 10 :
 
 Gambar 10 :
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/15.JPG?raw=true)
 
 __Membuat dataframe dari variabel cosine_sim dengan baris dan kolom berupa jenis pekerjaan dan kemampuan__
+
 Pada bagian ini dilakukan tahap pembuatan dataframe dari variabel cosine_sim dengan  baris berupa Kemampuan dan column berupa jenis pekerjaan setelah itu hasilnya akan dimasukkan kedalam variable _cosine_sim_df_ kemudian untuk melihat ukuran dataframe dapat menggunaka fungsi _shape_ lalu untuk cetak ukuran dari dataframe _cosine_sim_df_  menggunakan fungsi print 
 
 __Melihat similarity matrix pada setiap kemampuan__
+
 Pada bagian ini dilakukan tahap melihat sample matriks berdasarkan kemampuan dengan sampel berupa baris sebanyak 10 dan kolom sebanyak 10, dan untuk melihat hasilnta dapat dilihat di tabel 11 :
 
 Tabel 11: 
@@ -334,6 +350,7 @@ Tabel 11:
 
 ***
 ## __Mendapatkan Rekomendasi__
+
 Pada Mendapatkan rekomendasi dengan content based dapat dilakukan beberapa tahapan, antara lain :
 *  Mengambil data dengan menggunakan argpartition untuk melakukan partisi secara tidak langsung sepanjang sumbu yang diberikan    
 *  Mengambil data dengan similarity terbesar dari index yang ada
@@ -346,21 +363,27 @@ Pada Mendapatkan rekomendasi dengan content based dapat dilakukan beberapa tahap
 Untuk melakukan 3 tahapan tersebut, kami membuat sebuat fungsi jobs_recomendation yang memiliki 4 paratemeter yaitu kemampuan yang memiliki fungsi sebagai index kemiripan dataframe, similiarty_data yang berisi dataframe dari cosine_sim_df yaitu Dataframe mengenai similarity yang telah kita definisikan sebelumnya, lalu ada items yang digunakan untuk mendefinisikan kemiripan, dalam hal ini adalah 'Jenis_Pekerjaan’ dan ‘kemampuan’, kemudian k yaitu  Banyak rekomendasi yang ingin diberikan. setelah itu kami melakukan tahap 
 
 __Mengambil data dengan menggunakan argpartition untuk melakukan partisi secara tidak langsung sepanjang sumbu yang diberikan__
+
 Pada bagian ini dilakukan tahap untuk Mengambil data dengan menggunakan argpartition dari dataframe similarity dari cosine_dim_df dengan parameter yang dikunci adalah kemampuan  untuk melakukan partisi secara tidak langsung sepanjang sumbu yang diberikan setelah itu dataframe akan diubah kebentuk numpy dan terakhir diberikan range datanya 
 
 __Mengambil data dengan similarity terbesar dari index yang ada__
+
 Pada bagian ini dilakukan tahap untuk Mengambil data dengan similarity terbesar dari index yang ada 
 
 __Drop kemampuan agar kemampuan yang dicari tidak muncul dalam daftar rekomendasi__
+
 Pada bagian ini dilakukan tahap untuk menghapus kolom kemampuan dengan fungsi  _drop_  agar kemampuan yang dicari tidak muncul dalam daftar rekomendasi
 
 __Menampilkan hasil fungsi Jobs_Recommendations__
+
 Pada bagian ini dilakukan tahap untuk menampilkan  sample hasil dari fungsi  jobs_recomendation dengan hasilnya dapat diliha dari gambar 11:
 
 Gambar 11: 
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/16.JPG?raw=true)
 
 __Menampilkan Rekomendasi berdasarkan kemampuan__
+
+
 Pada bagian ini dilakukan tahap untuk menampilkan rekomendasi dari kemampuan ___Management, Microsoft, Communication Skills___, untuk hasilnya dapat dilihat pada tabel 12
 
 Tabel 12:
@@ -378,6 +401,7 @@ Tabel 12:
 |      Senior Product Manager - CITIS     | Business Analysis, Product Management, Communication skills |
 
 ___Menampilkan list rekomendasi berdasarkan Kemiripan Kemampuan__
+
 Pada bagian ini, kami membuat sebuah variable baru yang bernama __rekomendasi__ yang menampung dataframe dari fungsi job_recommendations dengan parameter kemampuan yang dicari yaitu Laravel, PHP, Vue.js, setelah itu kami memanggil kembali variable rekomendasi untuk menampilkan list rekomendasinya dan untuk hasilnya dapat dilihat pada tabel 13:
 
 Tabel 13 :
