@@ -422,7 +422,7 @@ Tabel 13 :
 ***
 ## __Evalution__
 #### __Content based filtering__
-Metric yang digunakan pada sistem rekomendasi judul film berdasarkan teknik __Content based filtering__ adalah accuracy precision. Precision adalah metrik yang membandingkan rasio prediksi benar atau positif dengan keseluruhan hasil yang diprediksi positif dengan rumus
+Metric yang digunakan pada sistem rekomendasi kemampuan berdasarkan teknik __Content based filtering__ adalah accuracy precision. Precision adalah metrik yang membandingkan rasio prediksi benar atau positif dengan keseluruhan hasil yang diprediksi positif dengan rumus
 ```python 
 Precission = (TP) / (TP+FP).
     
