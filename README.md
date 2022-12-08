@@ -164,7 +164,7 @@ Pada persiapan data  data dapat dilakukan beberapa tahapan, antara lain :
 * Membuang data duplikat pada variabel preparation dengan paramater kemampuan
 * Mengonversi data series jenis pekerjaan dan kemampuan menjadi dalam bentuk list
 * Membuat _dictionary_ untuk data jenis pekerjaan dan kemampuan 
-* Mesukkan dataframe jobs_new kedalam variable jobs_recomend dan berikan 5 sample teratas 
+* Memasukkan dataframe jobs_new kedalam variable jobs_recomend dan berikan 5 sample teratas 
 
 __Mengurutkan jobs berdasarkan kemampuan kemudian memasukkannya ke dalam variabel fix_jobs__
 
