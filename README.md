@@ -16,7 +16,8 @@ Berdasarkan penjelasan pada project overview, berikut ini merupakan batasan masa
 ### Goals 
 ***
 Tujuan dibuatnya proyek ini adalah sebagai berikut :
-* Menghasilkan sejumlah rekomendasi movie yang dipersonalisasi untuk pengguna dengan teknik content-based filtering yang dapat merekomendasikan film berdasarkan kemampuan 
+* Menghasilkan sejumlah rekomendasi profesi yang dipersonalisasi untuk pengguna dengan teknik content-based filtering yang dapat merekomendasikan profesi berdasarkan kemampuan 
+
 ### Solution Approach
 ***
 Solusi yang dapat dilakukan untuk memenuhi tujuan dari proyek ini diantaranya :
@@ -187,7 +188,7 @@ tabel 6 :
 
 __Mengecek berapa jumlah fix_movie__
 
-Pada bagian adalah pengecekkan entry unik pada variabel fix_movie yang berdasarkan movieId setelah itu dilakukan perhitungan dengan fungsi _len_, untuk melihat output dapat dilihat pada gambar 5 :
+Pada bagian adalah pengecekkan entry unik pada variabel fix_jobs yang berdasarkan kemampuan setelah itu dilakukan perhitungan dengan fungsi _len_, untuk melihat output dapat dilihat pada gambar 5 :
 
 gambar 5 :
 ![this is an image](https://github.com/Capstone-SIB-3/SiMiKar-Algoritma-/blob/source-gambar/6.JPG?raw=true)
