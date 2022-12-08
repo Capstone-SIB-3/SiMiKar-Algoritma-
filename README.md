@@ -5,7 +5,7 @@
 ## __SIMIKAR__
 Lestari & Rahardjo (2013) menemukan fenomena para sarjana yang baru lulus belum sepenuhnya mempertimbangkan kemampuan, minat, dan kepribadiannya dalam memilih suatu pekerjaan. Kecenderungan mereka dalam menentukan pekerjaan yang dipilihnya berdasarkan rasa khawatir dan cemas bila terlalu lama menganggur, rasa malu pada lingkungan disekitar terutama jika belum memperoleh pekerjaan, dan adanya tuntutan moral dari orangtua. Oleh karena hal tersebut dapat diangkat sebuah permasalahan yaitu bagaimana para lulusan fresh graduate dapat mengetahui minat karir mereka berdasarkan keahlian yang mereka miliki ? 
 
-Dari permasalahan tersebut, __SIMIKAR__ hadir untuk membantu  fresh graduate dalam merencanakan minat dan karir, __Simikar__ adalah sebuah website yang dibuat menggunakan _machine learning_  dengan tipe sistem rekomendasi untuk membantu para user yang menggunakan website __Simikar__  untuk mengetahui profesi di bidang IT yang akan cocok dengan dengan user berdasarkan kemampuan / skill yang mereka miliki 
+Dari permasalahan tersebut, __SIMIKAR__ hadir untuk membantu  fresh graduate dalam merencanakan minat dan karir, __Simikar__ adalah sebuah website yang dibuat menggunakan _machine learning_  dengan tipe sistem rekomendasi untuk membantu para user yang menggunakan website __Simikar__  untuk mengetahui profesi di bidang IT ataupun profesi lainnya  yang akan cocok dengan dengan user berdasarkan kemampuan / skill yang mereka miliki 
 
 # Business Understanding
 ***
@@ -53,7 +53,7 @@ tabel 1 : Ringkasan informasi dataset
 Pada berkas yang diunduh  terdapat  berkas csv yakni Techloker.csv, untuk penjelasannya dapat dilihat di keterangan dibawah ini : 
 
 __Techloker.csv__
-Pada berkas Techloker.csv terdapat 500 baris dengan 5 kolom, kolom-kolom tersebut terdiri 5 kolom bertipe objek, dataset ini dihasilkan dari scrapping web _www.techinasia.com_ dengan menggunakan extensions chromme _web scrappping_  , untuk  penjelasan mengenai variabel-variable pada dataset insurance ini dapat dilihat sebagai berikut:
+Pada berkas Techloker.csv terdapat 500 baris dengan 5 kolom, kolom-kolom tersebut terdiri 5 kolom bertipe objek, dataset ini dihasilkan dari scrapping web _www.techinasia.com_ dengan menggunakan extensions chromme _web scrapper_  , untuk  penjelasan mengenai variabel-variable pada dataset insurance ini dapat dilihat sebagai berikut:
 * link : Website acuan yang kami gunakaan untuk web scrapping
 * jenis_pekerjaan : jenis jenis profesi yang didapatkan dari scrapping 
 * nama_perusahaan : jenis jenis perusahaan yang didapatkan dari scrapping 
