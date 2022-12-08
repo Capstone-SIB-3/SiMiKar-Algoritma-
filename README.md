@@ -55,7 +55,7 @@ Pada berkas yang diunduh  terdapat  berkas csv yakni Techloker.csv, untuk penjel
 
 __Techloker.csv__
 
-Pada berkas Techloker.csv terdapat 500 baris dengan 5 kolom, kolom-kolom tersebut terdiri 5 kolom bertipe objek, dataset ini dihasilkan dari scrapping web _www.techinasia.com_ dengan menggunakan extensions chromme _web scrapper_  , untuk  penjelasan mengenai variabel-variable pada dataset insurance ini dapat dilihat sebagai berikut:
+Pada berkas Techloker.csv terdapat 500 baris dengan 5 kolom, kolom-kolom tersebut terdiri 5 kolom bertipe objek, dataset ini dihasilkan dari scrapping web _www.techinasia.com_ dengan menggunakan extensions chrome _web scrapper_  , untuk  penjelasan mengenai variabel-variable pada dataset Techloker ini dapat dilihat sebagai berikut:
 * link : Website acuan yang kami gunakaan untuk web scrapping
 * jenis_pekerjaan : jenis jenis profesi yang didapatkan dari scrapping 
 * nama_perusahaan : jenis jenis perusahaan yang didapatkan dari scrapping 
