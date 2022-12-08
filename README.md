@@ -85,6 +85,8 @@ tabel 2 : Tampilan 10 dataset Awal Techloker dalam bentuk dataframe dengan panda
 | https://www.techinasia.com/jobs/3ff61e60-8844-40c7-999d-daaed40c72c3 | Business Manager                     | Influence ID                      | Jakarta, Indonesia          | Sales & Marketing, Digital Marketing, Business Development, Marketing   Communications, Sales Strategy & Management |
 | https://www.techinasia.com/jobs/9efae31d-735f-4977-8f95-4121d558a59e | Team Lead .Net Developer             | PT. Informasi Teknologi Indonesia | Jakarta, Indonesia          | .NET, Java, Team, Leadership                                                                                        |
 | https://www.techinasia.com/jobs/b6cdb4f0-17e2-4f6d-87f4-3c0d43bb79d1 | Social media Intern (Warung Pintar)  | SIRCLO                            | Tangerang, Indonesia        | Social Media, Social Media Marketing, Content Strategy                                                              |
+
+
 __Menghapus kolom "link", "nama_perusahaan", "lokasi_perusahan" pada Techloker.csv__
 
 Pada proyek ini dilakukan penghapusan kolom _link_, _nama_perusahaan_ , dan  _lokasi_perusahaan_ pada Techloker.csv dengan fungsi _drop_, penghapusan ini dilakukan karena pada proyek ini tidak menggunakan kolom-kolom tersebut  lalu tampilan dataset  akan seperti pada tabel 3.
