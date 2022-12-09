@@ -11,7 +11,7 @@ Dari permasalahan tersebut, __SIMIKAR__ hadir untuk membantu  fresh graduate dal
 ***
 ### Problem Statement 
 Berdasarkan penjelasan pada project overview, berikut ini merupakan batasan masalah yang perlu diselesaikan di proyek ini:
-* Berdasarkan data mengenai pengguna, bagaimana membuat sistem rekomendasi yang dipersonalisasi dengan _teknik content-based filtering_ untuk merekomendasikan  berdasarkan kemampuan  ?
+* Berdasarkan data mengenai pengguna, bagaimana membuat sistem rekomendasi yang dipersonalisasi dengan _teknik content-based filtering_ untuk merekomendasikan profesi berdasarkan kemampuan user ?
 
 ### Goals 
 ***
