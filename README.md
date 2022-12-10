@@ -5,7 +5,7 @@
 ## __SIMIKAR__
 Lestari & Rahardjo (2013) menemukan fenomena para sarjana yang baru lulus belum sepenuhnya mempertimbangkan kemampuan, minat, dan kepribadiannya dalam memilih suatu pekerjaan. Kecenderungan mereka dalam menentukan pekerjaan yang dipilihnya berdasarkan rasa khawatir dan cemas bila terlalu lama menganggur, rasa malu pada lingkungan disekitar terutama jika belum memperoleh pekerjaan, dan adanya tuntutan moral dari orangtua. Oleh karena hal tersebut dapat diangkat sebuah permasalahan yaitu bagaimana para lulusan fresh graduate dapat mengetahui minat karir mereka berdasarkan keahlian yang mereka miliki ? 
 
-Dari permasalahan tersebut, __SIMIKAR__ hadir untuk membantu  fresh graduate dalam merencanakan minat dan karir, __Simikar__ adalah sebuah website yang dibuat menggunakan _machine learning_  dengan tipe sistem rekomendasi untuk membantu para user yang menggunakan website __Simikar__  untuk mengetahui profesi di bidang IT ataupun profesi lainnya  yang akan cocok dengan dengan user berdasarkan kemampuan / skill yang mereka miliki 
+Dari permasalahan tersebut, __SIMIKAR__ hadir untuk membantu  fresh graduate dalam merencanakan minat dan karir, __Simikar__ adalah sebuah website yang dibuat menggunakan _machine learning_  dengan tipe sistem rekomendasi berbasis _content based_ untuk membantu para user yang menggunakan website __Simikar__  untuk mengetahui profesi di bidang IT ataupun profesi lainnya  yang akan cocok dengan dengan user berdasarkan kemampuan / skill yang mereka miliki 
 
 # Business Understanding
 ***
